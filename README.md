@@ -11,4 +11,11 @@ It utilizes `rsync` for efficient synchronization, including the deletion of ext
 3. Execute the script by providing the source the source and destination directories as arguments: ```bash
 
               ./sp.sh <source_directory> <destination_directory>
+
+Replace `<source_directory>` and `<destination_directory>` with the paths to the directories you want to synchronize.
+
+## Example
+To synchronize the directories `path/to/source` and `path/to/destination`,run the script as follows:```bash
+
+                         ./sp.sh path/to/source  /path/to/destination
    
